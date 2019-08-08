@@ -36,3 +36,6 @@ function Test-Port($hostname, $port)
 
 # type server name (FQDN) and port to test
 Test-Port soandso.contoso.com 5985
+
+#minor modification test
+write-host "port 5985 TESTED"
