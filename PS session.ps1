@@ -1,5 +1,6 @@
 # the command ps session is already secured by default (even on http 5985)
 # but you can still encrypt passwork with the PS command below
+# done 08 08 2019 for GIT & GITHUB testing
 
 $SecurePassword = ConvertTo-SecureString -String "azerty" -AsPlainText -Force
 $TechnicalUser = "contoso\soandso"
